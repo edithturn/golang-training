@@ -11,5 +11,11 @@ flowchart TD;
     B -- No  --> [Run deploy.sh to deploy!];
     C ----> E[Enjoy your weekend];
     D ----> E[Enjoy your weekend];
+```
 
+
+
+```mermaid
+graoh TD;
+    A-->M;
 ```
