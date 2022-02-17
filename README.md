@@ -27,7 +27,7 @@ H-->|No| L[Skip running test<br />Run subset of static checks]
 flowchart LR
 A[PR arrives]-->B[Selective Check]
 B-->C{Direct push merge?}
-C-->|Yes| M[Enable images| D(Run Full Test<br />+Quarantined<br />Run full static checks)
+C-->|Yes: Enable images| D(Run Full Test<br />+Quarantined<br />Run full static checks)
 C-->|No| E[Retrieve changed files]
 E-->F{Environment files changed?}
 F-->|Yes: Enable images| D
