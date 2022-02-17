@@ -11,6 +11,7 @@ B-->C{Direct push merge?}
 C-->|Yes: Enable images| D[Run Full Test, +Quarantined, run full static checks]
 C-->|No| E[Retrieve changed files]
 E-->F{Environment files changed?}
+F-->|Yes: enable image building|
 F-->|No| G{Docs changed}
 ```
 
