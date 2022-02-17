@@ -2,20 +2,12 @@
 Notes about Udemy course to learn Golang: https://www.udemy.com/course/go-the-complete-developers-guide/
 
 
-## How to deploy
+## Selective Checks Mermaid
 
 ```mermaid
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
-
-```mermaid
-graph TD;
-    A-->M
-    M-->F
-    F-->P
+flowchart LR
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
 ```
