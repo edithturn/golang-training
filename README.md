@@ -20,7 +20,7 @@ I-->|No| J
 J-->|Yes| Q[Enable API tests]
 q-->H{Sources changed?}
 J-->|No| H
-H-->|Yes| R[Enable Pytests|
+H-->|Yes| R[Enable Pytests]
 R--> K{Determine test type}
 K-->|Core files changed: enable images| D
 K-->|Core files changed: enable images| M(Run selected test+<br />Heisentest, Integration, Quarantined<br />Full static checks) 
