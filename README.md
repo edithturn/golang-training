@@ -21,9 +21,10 @@ J-->|Yes| Q[Enable API tests]
 Q-->H{Sources changed?}
 J-->|No| H
 H-->|Yes| R[Enable Pytests]
-R--> K{Determine test type}
-K-->|Core files changed: enable images| D
-K-->|Core files changed: enable images| M(Run selected test+<br />Heisentest, Integration, Quarantined<br />Full static checks) 
+R--> K[Determine test type]
+k-->S{Core files changed}
+S-->|Yes| N
+S-->|No|  M(Run selected test+<br />Heisentest, Integration, Quarantined<br />Full static checks) 
 H-->|No| L[Skip running test<br />Run subset of static checks]
 ```
 
