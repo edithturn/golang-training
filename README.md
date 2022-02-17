@@ -17,9 +17,11 @@ G-->|No| I
 I-->|Yes| P[Enable helm tests]
 P-->J{API files changed}
 I-->|No| J
-J-->|Yes: Enable API tests| H{Sources changed?}
+J-->|Yes| Q[Enable API tests]
+q-->H{Sources changed?}
 J-->|No| H
-H-->|Yes: Enable Pytests| K{Determine test type}
+H-->|Yes| R[Enable Pytests|
+R--> K{Determine test type}
 K-->|Core files changed: enable images| D
 K-->|Core files changed: enable images| M(Run selected test+<br />Heisentest, Integration, Quarantined<br />Full static checks) 
 H-->|No| L[Skip running test<br />Run subset of static checks]
