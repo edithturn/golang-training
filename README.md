@@ -11,7 +11,8 @@ C-->|No| E[Retrieve changed files]
 E-->F{Environment files changed?}
 F-->|Yes: Enable images| D
 F-->|No| G{Docs changed}
-G-->|Yes|-->O[Enable images building] I{Chart files changed?}
+G-->|Yes| O[Enable images building]
+O-->I{Chart files changed?}
 G-->|No| I
 I-->|Yes: Enable helm tests| J{API files changed}
 I-->|No| J
