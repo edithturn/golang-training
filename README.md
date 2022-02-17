@@ -18,7 +18,7 @@ I-->|Yes| P[Enable helm tests]
 P-->J{API files changed}
 I-->|No| J
 J-->|Yes| Q[Enable API tests]
-q-->H{Sources changed?}
+Q-->H{Sources changed?}
 J-->|No| H
 H-->|Yes| R[Enable Pytests]
 R--> K{Determine test type}
