@@ -20,7 +20,7 @@ I-->|No| J
 J-->|Yes: Enable API tests| H{Sources changed?}
 J-->|No| H
 H-->|Yes: Enable Pytest| K{Determine test type}
-H-->|No|-->L[Skip running test, Run subset of static checks]
+H-->|No| L[Skip running test, Run subset of static checks]
 ```
 
 F-->|No| G{Docs changed}
