@@ -15,6 +15,8 @@ F-->|Yes: Enable images| D
 F-->|No| G{Docs changed}
 G-->|Yes: Enable images building| I{Chart files changed?}
 G-->|No| I
+I-->|Yes: Enable helm tests| J{API files changed}
+I-->|No| J
 ```
 
 F-->|No| G{Docs changed}
