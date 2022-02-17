@@ -14,7 +14,8 @@ F-->|No| G{Docs changed}
 G-->|Yes| O[Enable images building]
 O-->I{Chart files changed?}
 G-->|No| I
-I-->|Yes: Enable helm tests| J{API files changed}
+I-->|Yes| P[Enable helm tests]
+P-->J{API files changed}
 I-->|No| J
 J-->|Yes: Enable API tests| H{Sources changed?}
 J-->|No| H
