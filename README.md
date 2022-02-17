@@ -5,7 +5,7 @@ Notes about Udemy course to learn Golang: https://www.udemy.com/course/go-the-co
 ## Selective Checks Mermaid
 
 ```mermaid
-flowchart LR
+flowchart TD
 A[Hard] -->|Text| B(Round)
 B --> C{Decision}
 C -->|One| D[Result 1]
