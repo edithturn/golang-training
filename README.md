@@ -9,7 +9,8 @@ C-->|Yes| N[Enable images]
 N-->D(Run Full Test<br />+Quarantined<br />Run full static checks)
 C-->|No| E[Retrieve changed files]
 E-->F{Environment files changed?}
-F-->|Yes: Enable images| D
+F-->|Yes| N
+N-->D
 F-->|No| G{Docs changed}
 G-->|Yes| O[Enable images building]
 O-->I{Chart files changed?}
