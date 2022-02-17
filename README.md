@@ -1,7 +1,7 @@
 ## Selective Checks Mermaid
 
 ```mermaid
-flowchart TD
+flowchart LR
 A[PR arrives]-->B[Selective Check]
 B-->C{Direct push merge?}
 C-->|Yes: Enable images| D[Run Full Test<br />+Quarantined<br />Run full static checks]
