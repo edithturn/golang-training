@@ -10,7 +10,6 @@ N-->D(Run Full Test<br />+Quarantined<br />Run full static checks)
 C-->|No| E[Retrieve changed files]
 E-->F{Environment files changed?}
 F-->|Yes| N
-N-->D
 F-->|No| G{Docs changed}
 G-->|Yes| O[Enable images building]
 O-->I{Chart files changed?}
