@@ -5,7 +5,7 @@
 flowchart TD
 A(PR arrives)-->B[Selective Check]
 B-->C{Direct push merge?}
-C-->|Yes| N[Enable images| 
+C-->|Yes| N[Enable images] 
 N-->D(Run Full Test<br />+Quarantined<br />Run full static checks)
 C-->|No| E[Retrieve changed files]
 E-->F{Environment files changed?}
