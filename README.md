@@ -22,9 +22,7 @@ J-->|No| H
 H-->|Yes: Enable Pytest| K{Determine test type}
 H-->|No| L[Skip running test, Run subset of static checks]
 k-->|Core files changed: enable images| D
-k-->|No core files changed: enable images| L[Run selected tesrt+
-Heisentest, Integration, Quarantined
-Full static checks] 
+k-->|No core files changed: enable images| L[Run selected test+ Heisentest, Integration, Quarantined, Full static checks] 
 ```
 
 F-->|No| G{Docs changed}
