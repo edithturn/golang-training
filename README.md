@@ -24,6 +24,7 @@ H-->|No| L[Skip running test<br />Run subset of static checks]
 
 
 ## Horisontal
+```mermaid
 flowchart LR
 A[PR arrives]-->B[Selective Check]
 B-->C{Direct push merge?}
