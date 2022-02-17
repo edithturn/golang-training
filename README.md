@@ -22,7 +22,6 @@ K-->|Core files changed: enable images| M[Run selected test+<br />Heisentest, In
 H-->|No| L[Skip running test<br />Run subset of static checks]
 ```
 
-
 ## Horisontal
 ```mermaid
 flowchart LR
